@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/corpboot",
+  "type": "project",
+  "description": "description",
+  "keywords": [
+      "Corpboot",
+      "Corporate"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Banjir",
+      "email": "banjir@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+
+}

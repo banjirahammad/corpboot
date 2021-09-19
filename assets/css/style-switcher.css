@@ -1,0 +1,181 @@
+#style-switcher {
+	position:fixed;
+	z-index:1000;
+	top:130px;
+	right:-175px;
+	width:175px;
+	background:#fff;
+	padding:15px 10px;
+	border:1px solid #DEE5E9;
+	border-bottom-left-radius: 4px;
+}
+
+#toggle-switcher {
+	display:block;
+	width:50px;
+	height:50px;
+	background:#fff;
+	position:absolute;
+	left:-50px;
+	top:-1px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid #DEE5E9;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	border-right:none;
+}
+
+#toggle-switcher [class*=fa]{
+	font-size:32px;
+	line-height:50px;
+	color:#1E8BC3;
+}
+
+#toggle-switcher [class*=fa]:hover{
+	color:#3498DB;
+}
+
+#style-switcher h2 {
+    font-size:13px;
+    letter-spacing:.05em;
+    text-transform: uppercase;
+    text-align:center;
+    color:#666;
+    font-weight:700;
+    margin:2px 0 3px -20px;
+}
+
+.options{
+	padding-top:10px;
+	margin-bottom:-10px;
+}
+
+.options h6,.options h5{
+	padding:0;
+	width:90%;
+	padding-right:5px;
+	text-align:center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.options h5{
+	padding:6px 2px;
+	margin:8px 0;
+	background-color:#e0e0e0;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#044A67;
+	-webkit-border-radius:4px;
+    border-radius:4px
+}
+
+.options h6 {
+	margin:10px 0;
+}
+
+.options h6 a{
+	text-transform:uppercase;
+	color:#777;
+	font-size:11px;
+	border-bottom:dotted 1px #dadada;
+	padding-bottom:6px;
+	line-height:18px
+}
+
+.options h6 a:hover{
+	color:#2574A9
+}
+
+#style-switcher ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#style-switcher ul li{
+	display:block;
+	width:40px;
+	height:40px;
+	margin:10px 10px 0 0;
+	float:left;
+	border-radius:5px;
+	cursor:pointer;
+	transition: opacity .2s ease-out;
+}
+
+#style-switcher ul li:hover{
+	opacity:.8;
+}
+
+#bluetheme {
+	color: #2574A9;
+}
+
+#greentheme {
+	color: #019875;
+}
+
+#redtheme {
+	color: #E74C3C;
+}
+
+#gardentheme {
+    color: #165751;
+}
+
+#aquatheme {
+    color: #008C9E;
+}
+
+#lilactheme {
+    color: #6388C1;
+}
+
+#ambertheme {
+    color: #FFC107;
+}
+
+#browntheme {
+    color: #6D4C41;
+}
+
+#cyantheme {
+    color: #00ACC1;
+}
+
+#dorangetheme {
+    color: #F4511E;
+}
+
+#dpurpletheme {
+    color: #5E35B1;
+}
+
+#indigotheme {
+    color: #3949AB;
+}
+
+#limetheme {
+    color: #AFB42B;
+}
+
+#pinktheme {
+    color: #D81B60;
+}
+
+#purpletheme {
+    color: #8E24AA;
+}
+
+
+
+@media (max-width:767px){
+
+	#style-switcher {
+		display:none;
+	}
+
+}
